@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Productivity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+         
+    .btn-responsive {
+    /* matches 'btn-md' */
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    
+    }
+
+        @media (max-width:760px) {
+        /* matches 'btn-xs' */
+        .btn-responsive {
+            padding: 1px 5px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 3px;
+        }
+        }
+        .img-wrapper {
+    position: relative;
+    }
+
+    .img-responsive {
+    width: 100%;
+    height: auto;
+    }
+
+    .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 100px;
+    left: 100px;
+    right: 0;
+    text-align: left;
+    }
+
+    .img-overlay:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 50%;
+    }
+    .social {
+
+    width: 100%;
+    display: inline-block;
+
+    }
+    html,body{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        font-family: 'Roboto', sans-serif;
+    }
+   
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href=""index.html>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#HowitWorks">HowItWorks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ContactUs">ContactUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html">MainPage</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div container>
+            <div class="row">
+                <div class="img-wrapper">
+                    <img class="img-responsive" src="./assets/home.jpeg">
+                    <div class="img-overlay">
+                        <p class="h2" style="color:rgb(0, 0, 0);font-family: 'EB Garamond', serif;">Welcome to productivty 101</p><br><br>
+                        <p class="h5" style="color:rgb(0, 0, 0);font-family: 'EB Garamond', serif;">Here you will observe a great leap in your progress</p><br><br>
+                        <a  href="main.html"><input type="button" class="btn btn-info" value="Get started"></a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row" id="HowitWorks">
+                <div class="img-wrapper">
+                    <img class="img-responsive" src="./assets/about_us.jpg">
+                    <div class="img-overlay">
+                        <h3><b>How it works</b></h3>
+                        <p class="h5" style="color:rgb(0, 0, 0);text-align: left;">Our website is based on the Pomodoro technique, which is an incredibly popular productivity method that requires you to
+                        incorporate specific periods of rest and renewal into your workday by breaking it up into 25-minute chunks of productive
+                        time. 
+                        After the 25-minute chunk of time is up, you get a short break before repeating the same cycle over again.</p><br><br>
+                        <br>
+                        
+
+                    </div>
+                </div>
+            
+            </div>
+            <div class="row" id="ContactUs">
+                <div class="img-wrapper">
+                    <img class="img-responsive" src="./assets/contact_us.jpeg">
+                    <div class="img-overlay">
+                        <div class="row">
+                        <h3><b>Contact Us</b></h3>
+                        <p class="h5" style="color:rgb(0, 0, 0);">You can contact us via email or speak directly with our productivity office. Our information hours are 8:30 a.m. to 4:30
+                        p.m. Eastern time, Monday through Friday.<br>You can email us at abc@gmail.com<br><br>Follow us on:<br><br></p><br>
+                        </div>
+                        <div class="row">
+
+                        </div>
+                        <div class="row">
+                        <div class="col-md-3"><a href="https://twitter.com/"><i class="fa fa-twitter fa-lg" aria-hidden="true" ></i></a></div>
+                        <div class="col-md-3"><a href="https://linkedin.com/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></div>
+                        <div class="col-md-3"><a href="https://instagram.com/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></div>
+                        <div class="col-md-3"><a href="https://github.com/"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></div></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    
+    
+
+</body>
+
+
+</html>
